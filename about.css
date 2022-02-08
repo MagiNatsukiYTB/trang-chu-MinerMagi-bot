@@ -1,7 +1,17 @@
 body {
 	background: linear-gradient(99deg, #2affba, #280087ba) no-repeat;
-	height: 1448px;
+	height: 1529px;
 	width: 1795px;
+}
+
+
+.block {
+	background: #101010;
+    margin: -10px 63px -92px;
+    height: 1118px;
+    width: 1108px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 #command_miners {
@@ -68,7 +78,7 @@ body {
 
 .tieudenho1 {
 	background: linear-gradient(90deg, #5656563b, #3c814bab) no-repeat;
-	margin: 0px 650px 0px;
+	margin: 57px 650px 175px;
 	height: 80px;
 	width: 600px;
 	border: 2px solid black;
@@ -85,9 +95,17 @@ body {
     color: #ff0000;
 }
 
+.command {
+background: #000000de;
+    height: 66px;
+    width: 1911px;
+    margin: -126px -21px -22px;
+}
+
+
 .command_dulieu {
 	background: #000000de;
-	height: 1203px;
+	height: 1196px;
 	width: 1911px;
 	color: #a2a2ff;
     margin: 22px -8px 0px;
