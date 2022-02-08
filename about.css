@@ -1,0 +1,107 @@
+body {
+	background: linear-gradient(99deg, #2affba, #280087ba) no-repeat;
+	height: 1448px;
+	width: 1795px;
+}
+
+#command_miners {
+  margin-top: 100px;
+}
+
+.footer {
+    background: #192027;
+    padding: 32px 700px;
+    width: 1903px;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 26px;
+    font-size: 15px;
+    color: #999;
+}
+
+.footer p a {
+  color: yellowgreen;
+  text-decoration: none;
+}
+
+
+.footer p a:hover {
+  color: red;
+}
+
+
+.tieude {
+    background: #212529;
+    margin: 0px -108px 44px;
+    height: 43px;
+    text-align: center;
+    color: #a707e9;
+    font-size: 1.9em;
+}
+
+.navbar-brand {
+    margin: 10px 30px 10px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+
+.exi {
+/*	background: linear-gradient(136deg, #8b1b02, #200034);
+	border: 2px solid orange;
+	border-radius: 5px;*/
+    margin: 61px 134px 53px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.d-inline-block {
+    display: inline-block!important;
+}
+.align-text-top {
+    vertical-align: text-top!important;
+}
+
+.tieudenho1 {
+	background: linear-gradient(90deg, #5656563b, #3c814bab) no-repeat;
+	margin: 0px 650px 0px;
+	height: 80px;
+	width: 600px;
+	border: 2px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 30px;
+	color: #fbff00;
+}
+
+
+.command_miner {
+    margin: 94px 97px -67px;
+    font-size: 25px;
+    color: #ff0000;
+}
+
+.command_dulieu {
+	background: #000000de;
+	height: 1203px;
+	width: 1911px;
+	color: #a2a2ff;
+    margin: 22px -8px 0px;
+}
+
+.command_dulieu_text {
+	font-size: 23.5px;
+	margin: 0px 145px 123px;
+	padding-top: 60px;
+}
+
+.command_dulieu_text2 {
+	color: #ffc800;
+	font-size: 25px;
+	margin: -181px 145px 97px;
+	padding-top: 60px;
+}
