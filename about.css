@@ -1,6 +1,6 @@
 body {
 	background: linear-gradient(99deg, #2affba, #280087ba) no-repeat;
-	height: 1529px;
+	height: 2440px;
 	width: 1795px;
 }
 
@@ -8,7 +8,7 @@ body {
 .block {
 	background: #101010;
     margin: -10px 63px -92px;
-    height: 1118px;
+    height: 1141px;
     width: 1108px;
     border: 2px solid white;
     border-radius: 10px;
@@ -96,10 +96,19 @@ body {
 }
 
 .command {
-background: #000000de;
+	background: #000000de;
     height: 66px;
-    width: 1911px;
+    width: 1923px;
     margin: -126px -21px -22px;
+}
+
+.block2 {
+    background: #101010;
+    margin: -10px 63px -92px;
+    height: 688px;
+    width: 1108px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 
@@ -110,6 +119,16 @@ background: #000000de;
 	color: #a2a2ff;
     margin: 22px -8px 0px;
 }
+
+
+.command_dulieu2 {
+    background: #000000de;
+    height: 759px;
+    width: 1911px;
+    color: #a2a2ff;
+    margin: 22px -8px 0px;
+}
+
 
 .command_dulieu_text {
 	font-size: 23.5px;
