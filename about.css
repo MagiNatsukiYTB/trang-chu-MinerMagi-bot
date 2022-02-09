@@ -78,7 +78,7 @@ body {
 
 .tieudenho1 {
 	background: linear-gradient(90deg, #5656563b, #3c814bab) no-repeat;
-	margin: 57px 650px 175px;
+	margin: 8px 650px 175px;
 	height: 80px;
 	width: 600px;
 	border: 2px solid black;
@@ -142,3 +142,31 @@ body {
 	margin: -181px 145px 97px;
 	padding-top: 60px;
 }
+
+
+
+
+.back {
+  background: #212529;
+  visibility: hidden;
+  transition: 0.5s;
+  transition-delay: 0.4s;
+  margin: 10px 17px 10px;
+
+}
+
+.chp2:hover .back {
+  font-size: 20px;
+  color: #FF0000;
+  margin: 0 10 5px; 
+  visibility: visible;
+
+}
+
+
+.chp2 {
+  font-size: 20px;
+  color: white;
+  margin: -82px 1292px -14px;
+}
+
