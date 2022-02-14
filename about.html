@@ -17,116 +17,194 @@
 
 
 </head>
-<body>
+<body class="body">
 
-	<div>
-		<h1 class="tieude">
-			<a id="daude" class="navbar-brand" href="#">
-			            <img src="https://cdn.discordapp.com/avatars/895992562714824755/8bc21702e89a208ddfeadf4882bdf18c.webp?size=1024" alt="." width="30" height="30" class="d-inline-block align-text-top">
-			            Miner Magic
-			 </a>
+    <section class="main">
+      <nav class="navbar navbar-dark bg-dark2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/logo.gif"
+              alt="."
+              width="30"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+            Miner Magic
 
-			Dưới đây là tất cả lệnh và cách chơi
-			<h3 class="chp2 navbar-brand">
-				Lối Tắt đến các lệnh<br><br>
-				<a class="back navbar-brand" href="#command_miners">Miner Command<br><br></a>
-				<a class="back navbar-brand" href="#command_musics">Music Command</a>
-			</h3>
-		</h1>
-		<h2 class="tieudenho1">
-			MinerMagic Bot Commands<br>
-			Chú ý: Prefix là -
-		</h2>
-		<h3 class="command_miner" id="command_miners">
-			Miner Commands:
-		</h3>
-		
-		<div class="command"></div>
-		<div class="command_dulieu">
-		  <div class="block">
-			<h4 class="command_dulieu_text">
-				<br>-balo: Mở balo<br>
-				-ô: chơi slots<br>
-				-give: tặng đồ hoặc tiền<br>
-	            -daily: nhận thưởng hằng ngày<br>
-	            -bxh: bảng xếp hạng số tiền<br><br>
+<!--           <a class="thanhdau" href="/dashboard.html">Dashboard</a> -->
+          </a>
+          <div class="d-flex nav-links">
+            <div class="kho">
+            	<span style="--i:0;--x:-1;--y:0"><ion-icon name="home-outline"></ion-icon></span>
 
-	            -mine(s): đi đào hang<br>
-	            -sửa: sửa cúp khi cúp bạn hỏng<br>
-	            -dùng: đổi sang dùng 1 loại cúp khác cho phù hợp với thế giới bạn đang ở<br><br>
+            	<span style="--i:1;--x:1;--y:0"><ion-icon name="game-controller-outline"></ion-icon></span>
 
-	            -fish(f): câu cá<br>
-	            -tool: xem cúp hoặc cần câu bạn đang có<br><br>
+            	<span style="--i:2;--x:0;--y:-1"><ion-icon name="chatbox-ellipses-outline"></ion-icon></span>
 
-				-shop: cửa hàng mua: mua đồ có trong của hàng<br>
-				-mua: mua đồ có trong <br><br>
+            	<span style="--i:3;--x:0;--y:1"><ion-icon name="rocket-outline"></ion-icon></span>
 
-	            -overworld: bạn sẽ qua thế bình thường<br>
-	            -netherworld: bạn sẽ qua thế giới địa ngục<br>
-	            -theend: bạn sẽ qua thế giới kết thúc<br><br>
-	            
-	            -chest: Farm rương<br>
-	            -openchest: Mở rương đang có<br><br>
+            	<span style="--i:4;--x:1;--y:1"><ion-icon name="logo-discord"></ion-icon></span>
 
-	            -hunt: săn thú và auto bán<br>
-	            -chiến: đấu với quái vật nhận thưởng<br>
-	            -boss: chiến đấu với bot<br>
-	            -pet: xem pet bắt được trong hunt mà bạn không bán<br>
-	            -hồi_phục: hồi phục máu khi đi săn mất máu<br><br>
+            	<span style="--i:5;--x:-1;--y:-1"><ion-icon name="logo-youtube"></ion-icon></span>
 
-	            -công_thức: xem công thức chế tạo đồ<br>
-	            -chế_tạo: chế tạo những đồ có trong công thức<br><br>
+            	<span style="--i:6;--x:0;--y:0"></span>
+            	<span style="--i:7;--x:-1;--y:1"></span>
+            	<span style="--i:8;--x:1;--y:-1"></span>
+            </div>
 
-	            -enchant: nâng cấp dụng cụ xịn hơn<br><br>
+						<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+						<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-			</h4>
-				<h2 class="command_dulieu_text2">
+            <script>
+            	var kho = document.querySelector('.kho')
+            	kho.onclick = function(){
+            		kho.classList.toggle('active')
+            	}
+            </script>
 
-				Đọc Kĩ:<br>
-		        -cách_chơi: để biết 100% Cách chơi Bot
-		        <a class="exi" href="#daude">Quay về</a>
+          </div>
+        </div>
+      </nav>
+      <section class="can-giua-2">
 
-	    	</h2>
-	     </div>
-		</div>
-	</div>
+	      <div>
+	      	<h2 class="xx1">
+	      		Build the best Discord Server!
+	      	</h2>
+	      	<h3 class="xx2">
+	      		Chức năng moderation, leveling, mining, và nhiều chức năng khác
+	      		<button class="bt1">
+	      			<div>
+	      				<a class="bt2" href="https://discord.com/oauth2/authorize?client_id=895992562714824755&permissions=8&scope=bot" target="_blank">
+	      					Add Bot
+	      				</a>
+	      			</div>
+	      		</button>
+	      	</h3>
+
+	      </div>
+
+      	<div class="icon1">
+      		<img class="im1" src="ender.png">
+<!--       		<img class="im2" src="ender2.png">
+ -->      		<ion-icon name="logo-discord"></ion-icon>
+      		<h2 class="pre">
+      			Prefix: -
+      		</h2>
+      	</div>
+
+      </section>
 
 
-		<h3 class="command_miner" id="command_musics">
-			Music Commands:
-		</h3>
-		
-		<div class="command"></div>
-		<div class="command_dulieu2">
-		  <div class="block2">
-			<h4 class="command_dulieu_text">
-				<br>-vào: cho bot vào kênh<br>
-				-ra: cho bot thoát kênh<br><br>
-				-mở: mở nhạc<br>
-				-nowplaying: điều khiển bài nhạc, xem được thời gian nhạc đã chạy...<br><br>
-                -danh_sách: xem danh sách nhạc chờ<br><br>
-                -skip: cho qua nhạc đang phát<br>
-                -stop: xóa toàn bộ nhạc có trong danh sách và nhạc đang phát<br><br>
-                -dừng: tạm dừng nhạc đang phát<br>
-                -tiếp: phát tiếp tục nhạc đang dừng hoặc chưa dừng<br>
+      <div class="thanhdai1">
+  			<h2 class="ub1">Dưới đây là các lệnh</h2>
+				<ul class="ul1">
+					<li class="li1">.</li>
+					<li class="li2">.</li>
+					<li class="li3">.</li>
+					<li class="li4">.</li>
+					<li class="li5">.</li>
+				</ul>
 
-			</h4>
-		        <a class="exi" href="#daude">Quay về</a>
-
-	     </div>
-		</div>
-	</div>
-
-    <div class="footer">
-              <p>
-                © 2022
-                <a href="https://discord.com/api/oauth2/authorize?client_id=895992562714824755&permissions=8&scope=bot"
-                  >MinerMagic bot</a
-                >. All rights reserved. Made by
-                <a href="https://discord.gg/cJA3XcB8M4">Magi Natsuki</a>
-                
-              </p>
       </div>
+
+      <div class="command1">
+      	<h2 class="text1">
+      		<br>Command Minning Bot
+      	</h2>
+      	<h3 class="text2">
+      		Nhấn vào để xem lệnh<br><br>
+      		Đây là nơi chứa lệnh miner
+      	</h3>
+
+      	<h3 class="text3">
+					-balo: Mở balo<br>
+					-ô: chơi slots<br>
+					-give: tặng đồ hoặc tiền<br>
+		      -daily: nhận thưởng hằng ngày<br>
+		      -bxh: bảng xếp hạng số tiền<br><br>
+
+		      -mine(s): đi đào hang<br>
+		      -sửa: sửa cúp khi cúp bạn hỏng<br>
+		      -dùng: đổi sang dùng 1 loại cúp khác cho phù hợp với thế giới bạn đang ở<br><br>
+
+		      -fish(f): câu cá<br>
+		      -tool: xem cúp hoặc cần câu bạn đang có<br><br>
+
+					-shop: cửa hàng mua: mua đồ có trong của hàng<br>
+					-mua: mua đồ có trong <br><br>
+
+		      -overworld: bạn sẽ qua thế bình thường<br>
+		      -netherworld: bạn sẽ qua thế giới địa ngục<br>
+		      -theend: bạn sẽ qua thế giới kết thúc<br><br>
+		      
+		      -chest: Farm rương<br>
+		      -openchest: Mở rương đang có<br><br>
+
+		      -hunt: săn thú và auto bán<br>
+		      -chiến: đấu với quái vật nhận thưởng<br>
+		      -boss: chiến đấu với bot<br>
+		      -pet: xem pet bắt được trong hunt mà bạn không bán<br>
+		      -hồi_phục: hồi phục máu khi đi săn mất máu<br><br>
+
+		      -công_thức: xem công thức chế tạo đồ<br>
+		      -chế_tạo: chế tạo những đồ có trong công thức<br><br>
+
+		      -enchant: nâng cấp dụng cụ xịn hơn<br><br>
+      	</h3>
+
+        <script>
+        	let command1 = document.querySelector('.command1')
+        	command1.onclick = function(){
+        		command1.classList.toggle('khoilenh1')
+        	}
+        </script>
+
+      </div>
+
+
+      <div class="command2">
+      	<img class="implay" src="play.png">
+      	<img class="imnp" src="nowplaying.png">
+      	<img class="imbalo" src="balo.png">
+      	<img class="immine" src="mine.png">
+	      <div class="thanhben"></div>
+      	<h2 class="text4">
+      		<br>Command Music Bot
+      	</h2>
+      	<h3 class="text5">
+      		Nhấn vào để xem lệnh<br><br>
+      		Đây là nơi chứa lệnh music
+      	</h3>
+
+      	<h3 class="text6">
+					-vào: cho bot vào kênh<br>
+					-ra: cho bot thoát kênh<br><br>
+					-mở: mở nhạc<br>
+					-nowplaying: điều khiển bài nhạc, xem được thời gian nhạc đã chạy...<br><br>
+	        -danh_sách: xem danh sách nhạc chờ<br><br>
+	        -skip: cho qua nhạc đang phát<br>
+	        -stop: xóa toàn bộ nhạc có trong danh sách và nhạc đang phát<br><br>
+	        -dừng: tạm dừng nhạc đang phát<br>
+	        -tiếp: phát tiếp tục nhạc đang dừng hoặc chưa dừng<br>
+      	</h3>
+
+        <script>
+        	let command2 = document.querySelector('.command2')
+        	command2.onclick = function(){
+        		command2.classList.toggle('khoilenh2')
+        	}
+        </script>
+
+      </div>
+
+      <button class="them">
+      	<a class="xa1" href="">Xem Thêm</a>
+      </button>
+
+    </section>
+
 
 </body>
 </html>
