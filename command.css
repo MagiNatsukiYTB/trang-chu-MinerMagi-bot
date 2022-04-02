@@ -1,0 +1,141 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    background: rgb(39, 41, 52);
+}
+
+.box_start {
+    background: #1d1d1d;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.box_start div img {
+    border-radius: 50%;
+}
+
+.box_start div a {
+    margin: 0px 5px;
+    text-transform: uppercase;
+    font-weight: 200px;
+}
+
+.box_start a {
+    color: aliceblue; 
+    transition: 0.5s;
+    font-size: 1.25rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    margin: 0px 75px;
+}
+
+.box_start a:hover {
+    color: aqua;
+    font-size: 1.55rem;
+    background: rgb(27 27 27);
+}
+
+.command1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.command1 h1 {
+    color: #7191ae;
+    padding: 50px 0px;
+
+}
+
+.command1 h2 {
+    color: #79dac9;
+
+}
+
+.command1-1 h4 {
+    color: aliceblue;
+}
+
+.command1-1 h1 {
+    color: rgb(194, 193, 193);
+    font-size: 21px;
+}
+
+.command1-1 {
+    color: #FFFFFFB3;
+}
+
+.command1-1 h3 {
+    color: aliceblue;
+}
+
+.command1-1 h5 {
+    color: #ffffff5e;
+}
+
+.command1-1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+
+.command1-1 li {
+    color: rgb(161, 161, 161);
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cachd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cachd h6{
+    background-color: rgb(94, 93, 93);
+    height: 2px;
+    width: 37%;
+}
+
+footer {
+    background-color: rgb(20 21 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    height: 80px;
+    margin-top: 100px;
+}
+
+footer img {
+    border-radius: 50%;
+}
+
+footer a {
+    font-size: 25px;
+    transition: 0.5s;
+    color: #4579ce;
+    text-decoration: none;
+}
+
+footer h4 {
+    margin-top: 10px;
+    color: rgb(154 147 197 / 48%);
+}
